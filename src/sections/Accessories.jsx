@@ -79,7 +79,7 @@ const Accessories = () => {
                   <p className="text-xs text-gray-400 mb-6 flex-grow">{item.description}</p>
                   
                   <a
-                    href={`https://wa.me/918946057561?text=Hi!%20Can%20I%20get%20the%20price%20for%20${encodeURIComponent(item.name)}?`}
+                    href={`https://wa.me/917418131756?text=Hi!%20Can%20I%20get%20the%20price%20for%20${encodeURIComponent(item.name)}?`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-full py-2 bg-transparent border border-ss-cyan/50 text-ss-cyan text-sm font-bold rounded hover:bg-ss-cyan hover:text-ss-navy transition-colors duration-300 interactive text-center"

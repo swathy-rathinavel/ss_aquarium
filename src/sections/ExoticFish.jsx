@@ -123,7 +123,7 @@ const ExoticFish = () => {
                     </div>
 
                     <a
-                      href={`https://wa.me/918946057561?text=Hi%20SS%20Aquarium!%20I'm%20interested%20in%20the%20${encodeURIComponent(item.name)}.`}
+                      href={`https://wa.me/917418131756?text=Hi%20SS%20Aquarium!%20I'm%20interested%20in%20the%20${encodeURIComponent(item.name)}.`}
                       target="_blank"
                       rel="noopener noreferrer"
                       onClick={(e) => e.stopPropagation()}
@@ -228,7 +228,7 @@ const ExoticFish = () => {
                   </div>
 
                   <a
-                    href={`https://wa.me/918946057561?text=Hi%20SS%20Aquarium!%20I'm%20interested%20in%20the%20${encodeURIComponent(selectedFish.name)}.`}
+                    href={`https://wa.me/917418131756?text=Hi%20SS%20Aquarium!%20I'm%20interested%20in%20the%20${encodeURIComponent(selectedFish.name)}.`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-full py-3 rounded-lg bg-ss-cyan hover:shadow-[0_0_15px_rgba(0,229,255,0.6)] text-ss-navy font-bold flex items-center justify-center transition-all duration-300 interactive group/btn"

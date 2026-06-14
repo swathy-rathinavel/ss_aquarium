@@ -23,7 +23,7 @@ const Contact = () => {
     }
     
     const text = `*New Enquiry from Website*%0A%0A*Name:* ${name}%0A*Phone:* ${phone}%0A*Subject:* ${subject}%0A*Message:* ${message}`;
-    const url = `https://wa.me/918946057561?text=${text}`;
+    const url = `https://wa.me/917418131756?text=${text}`;
     window.open(url, '_blank');
   };
 
@@ -55,9 +55,9 @@ const Contact = () => {
                 <div>
                   <h4 className="text-lg font-bold text-white mb-2">Call Us</h4>
                   <div className="space-y-1">
-                    <a href="tel:+918946057561" className="block text-gray-300 hover:text-ss-cyan transition-colors interactive">Sathish: 8946057561</a>
+                    <a href="tel:+917418131756" className="block text-gray-300 hover:text-ss-cyan transition-colors interactive">Sathish: 7418131756</a>
                     <a href="tel:+919994109124" className="block text-gray-300 hover:text-ss-cyan transition-colors interactive">Jai: 9994109124</a>
-                    <a href="tel:+919025335949" className="block text-gray-300 hover:text-ss-cyan transition-colors interactive">Pavithran: 9025335949</a>
+                    <a href="tel:+917449131756" className="block text-gray-300 hover:text-ss-cyan transition-colors interactive">Pavithran: 7449131756</a>
                   </div>
                 </div>
               </div>
@@ -102,7 +102,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="text-lg font-bold text-white mb-2">WhatsApp</h4>
-                  <a href="https://wa.me/918946057561" target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-green-400 font-bold hover:text-green-300 transition-colors interactive">
+                  <a href="https://wa.me/917418131756" target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-green-400 font-bold hover:text-green-300 transition-colors interactive">
                     Chat with us on WhatsApp
                   </a>
                 </div>

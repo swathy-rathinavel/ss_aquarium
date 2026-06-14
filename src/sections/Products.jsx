@@ -80,7 +80,7 @@ const Products = () => {
                   <p className="text-xs text-gray-400 mb-6 flex-grow">{item.description}</p>
                   
                   <a
-                    href={`https://wa.me/918946057561?text=Hi!%20Is%20${encodeURIComponent(item.name)}%20(${encodeURIComponent(item.brand)})%20available?`}
+                    href={`https://wa.me/917418131756?text=Hi!%20Is%20${encodeURIComponent(item.name)}%20(${encodeURIComponent(item.brand)})%20available?`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-full py-2 bg-ss-steel/30 border border-ss-cyan/30 text-white text-sm font-bold rounded hover:bg-ss-cyan hover:text-ss-navy transition-colors duration-300 interactive text-center"

@@ -24,10 +24,10 @@ const Services = () => {
       <div className="absolute top-0 left-0 w-full bg-gradient-to-r from-ss-teal via-ss-cyan to-ss-teal py-3 z-20 shadow-[0_0_20px_rgba(0,229,255,0.3)] whitespace-nowrap overflow-hidden">
         <div className="inline-block animate-marquee">
           <span className="text-black font-bold text-lg tracking-wide mx-4">
-            🎉 New Stock Arriving Weekly • Free Consultation for Orders Above ₹5000 • Custom Tanks Available • Call Now: 8946057561
+            🎉 New Stock Arriving Weekly • Free Consultation for Orders Above ₹5000 • Custom Tanks Available • Call Now: 7418131756
           </span>
           <span className="text-black font-bold text-lg tracking-wide mx-4">
-            🎉 New Stock Arriving Weekly • Free Consultation for Orders Above ₹5000 • Custom Tanks Available • Call Now: 8946057561
+            🎉 New Stock Arriving Weekly • Free Consultation for Orders Above ₹5000 • Custom Tanks Available • Call Now: 7418131756
           </span>
         </div>
       </div>
@@ -73,7 +73,7 @@ const Services = () => {
                     </div>
                     
                     <a
-                      href={`https://wa.me/918946057561?text=Hi!%20I%20want%20to%20book%20a%20service:%20${encodeURIComponent(service.title)}`}
+                      href={`https://wa.me/917418131756?text=Hi!%20I%20want%20to%20book%20a%20service:%20${encodeURIComponent(service.title)}`}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="px-4 py-2 bg-white/5 hover:bg-ss-cyan text-ss-cyan hover:text-ss-navy border border-ss-cyan/50 rounded-lg text-sm font-bold transition-all duration-300 interactive"
