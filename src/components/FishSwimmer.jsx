@@ -2,8 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const fishShapes = [
-  <img key="betta" src="/images/betta.png" alt="Betta Fish" className="w-48 md:w-64 h-auto drop-shadow-[0_0_15px_rgba(0,229,255,0.4)] mix-blend-screen" />,
-  <img key="goldfish" src="/images/goldfish.png" alt="Goldfish" className="w-48 md:w-64 h-auto drop-shadow-[0_0_15px_rgba(255,107,107,0.4)] mix-blend-screen" />
+  <img key="betta" src={`${import.meta.env.BASE_URL}images/betta.png`} alt="Betta Fish" className="w-48 md:w-64 h-auto drop-shadow-[0_0_15px_rgba(0,229,255,0.4)] mix-blend-screen" />,
+  <img key="goldfish" src={`${import.meta.env.BASE_URL}images/goldfish.png`} alt="Goldfish" className="w-48 md:w-64 h-auto drop-shadow-[0_0_15px_rgba(255,107,107,0.4)] mix-blend-screen" />
 ];
 
 const FishSwimmer = () => {

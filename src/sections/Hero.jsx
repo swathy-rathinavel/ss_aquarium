@@ -28,7 +28,7 @@ const Hero = () => {
     <section 
       id="hero" 
       className="relative w-full h-screen min-h-[600px] flex flex-col justify-center items-center overflow-hidden bg-cover bg-center bg-no-repeat"
-      style={{ backgroundImage: "url('/images/bg.png')" }}
+      style={{ backgroundImage: `url('${import.meta.env.BASE_URL}images/bg.png')` }}
     >
       {/* Caustic light overlay */}
       <div className="caustic-overlay"></div>

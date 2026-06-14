@@ -13,9 +13,9 @@ const FishParticles = () => {
     const numFishes = 25; // Less fishes since they are bigger and detailed
 
     const imgBetta = new Image();
-    imgBetta.src = '/images/betta.png';
+    imgBetta.src = `${import.meta.env.BASE_URL}images/betta.png`;
     const imgGoldfish = new Image();
-    imgGoldfish.src = '/images/goldfish.png';
+    imgGoldfish.src = `${import.meta.env.BASE_URL}images/goldfish.png`;
     const fishImages = [imgBetta, imgGoldfish];
 
     const resizeCanvas = () => {
