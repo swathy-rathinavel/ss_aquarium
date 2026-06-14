@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
-const GlassCard = ({ children, className = "", delay = 0, noHoverScale = false }) => {
+const GlassCard = ({ children, className = "", delay = 0, noHoverScale = false, ...props }) => {
   return (
     <motion.div
       initial={{ opacity: 0, y: 40 }}
@@ -10,6 +10,7 @@ const GlassCard = ({ children, className = "", delay = 0, noHoverScale = false }
       transition={{ duration: 0.6, delay, ease: "easeOut" }}
       whileHover={noHoverScale ? {} : { scale: 1.03 }}
       className={`relative group overflow-hidden glass-effect ${className}`}
+      {...props}
     >
       {/* Hover border glow highlight */}
       <div className="absolute inset-0 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none ring-1 ring-ss-cyan/50 shadow-[0_0_20px_rgba(0,229,255,0.2)]"></div>

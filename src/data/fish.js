@@ -8,7 +8,7 @@ export const fish = [
     description: "Brightly colored, peaceful schooling fish perfect for planted community tanks. Their iridescent blue and red stripes add vibrant life to any setup.",
     temperament: "Peaceful",
     tankSize: "10+ Gallons",
-    image: "" // REPLACE WITH ACTUAL IMAGE
+    image: "images/fish/neon_tetra.png"
   },
   {
     id: 2,
@@ -19,7 +19,7 @@ export const fish = [
     description: "Also known as Siamese fighting fish, featuring magnificent flowing fins and vibrant colors. Males should be kept solitary or in carefully managed community tanks.",
     temperament: "Aggressive (Males)",
     tankSize: "5+ Gallons",
-    image: "" // REPLACE WITH ACTUAL IMAGE
+    image: "images/fish/betta_splendens.png"
   },
   {
     id: 3,
@@ -30,7 +30,7 @@ export const fish = [
     description: "The 'King of the Aquarium'. Known for their striking circular shape and incredible color patterns. Requires pristine water conditions and warm temperatures.",
     temperament: "Peaceful but shy",
     tankSize: "55+ Gallons",
-    image: "" // REPLACE WITH ACTUAL IMAGE
+    image: "images/fish/discus.png"
   },
   {
     id: 4,
@@ -41,7 +41,7 @@ export const fish = [
     description: "A highly prized, ancient-looking predatory fish. In many cultures, they are believed to bring luck and prosperity. Requires a massive tank and specialized diet.",
     temperament: "Aggressive / Predatory",
     tankSize: "150+ Gallons",
-    image: "" // REPLACE WITH ACTUAL IMAGE
+    image: "images/fish/arowana.png"
   },
   {
     id: 5,
@@ -52,7 +52,7 @@ export const fish = [
     description: "A uniquely beautiful hybrid cichlid known for its vivid coloration and the prominent 'nuchal hump' on its head. Very interactive and 'pet-like'.",
     temperament: "Highly Aggressive",
     tankSize: "55+ Gallons",
-    image: "" // REPLACE WITH ACTUAL IMAGE
+    image: "images/fish/flowerhorn.png"
   },
   {
     id: 6,
@@ -63,7 +63,7 @@ export const fish = [
     description: "The classic 'Nemo' fish. Hardy and highly recognizable, they form incredible symbiotic relationships with sea anemones.",
     temperament: "Peaceful",
     tankSize: "20+ Gallons",
-    image: "" // REPLACE WITH ACTUAL IMAGE
+    image: "images/fish/clownfish.png"
   },
   {
     id: 7,
@@ -74,7 +74,7 @@ export const fish = [
     description: "Vivid blue body with bold black markings and a yellow tail. Active swimmers that require plenty of open space in a marine setup.",
     temperament: "Peaceful",
     tankSize: "100+ Gallons",
-    image: "" // REPLACE WITH ACTUAL IMAGE
+    image: "images/fish/blue_tang.png"
   },
   {
     id: 8,
@@ -85,7 +85,7 @@ export const fish = [
     description: "Graceful and elegant with tall, sweeping fins. They are a staple of the freshwater hobby and come in many beautiful color morphs.",
     temperament: "Semi-aggressive",
     tankSize: "30+ Gallons",
-    image: "" // REPLACE WITH ACTUAL IMAGE
+    image: "images/fish/angelfish.png"
   },
   {
     id: 9,
@@ -96,7 +96,7 @@ export const fish = [
     description: "Incredibly colorful and active livebearers. Males feature spectacular, flowing tails. Very easy to breed and great for beginners.",
     temperament: "Peaceful",
     tankSize: "10+ Gallons",
-    image: "" // REPLACE WITH ACTUAL IMAGE
+    image: "images/fish/guppy.png"
   },
   {
     id: 10,
@@ -107,7 +107,7 @@ export const fish = [
     description: "Features a distinctive fleshy 'wen' (hood) on its head. Peaceful cold-water fish that look spectacular in a species-only tank.",
     temperament: "Peaceful",
     tankSize: "30+ Gallons",
-    image: "" // REPLACE WITH ACTUAL IMAGE
+    image: "images/fish/oranda_goldfish.png"
   },
   {
     id: 11,
@@ -118,7 +118,7 @@ export const fish = [
     description: "Large, intelligent, and full of personality. Oscars often learn to recognize their owners and will 'beg' for food.",
     temperament: "Aggressive",
     tankSize: "75+ Gallons",
-    image: "" // REPLACE WITH ACTUAL IMAGE
+    image: "images/fish/tiger_oscar.png"
   },
   {
     id: 12,
@@ -129,6 +129,7 @@ export const fish = [
     description: "Males turn a brilliant, deep cherry red during spawning. Excellent, active, and peaceful additions to a densely planted aquarium.",
     temperament: "Peaceful",
     tankSize: "20+ Gallons",
-    image: "" // REPLACE WITH ACTUAL IMAGE
+    image: "images/fish/cherry_barb.png"
   }
 ];
+
